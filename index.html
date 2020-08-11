@@ -1,0 +1,1062 @@
+<!doctype html>
+<html class="home">
+
+<head>
+    <link rel="apple-touch-icon" href="/pku_logo_red.png" />
+    <link rel="shortcut icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="author" content="li6834300.github.io">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="keywords" content="星元研究院" />
+    <meta name="description" content="星元研究院" />
+
+    <title>星元研究院</title>
+    <link href="css/fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="css/fix.css" rel="stylesheet" type="text/css" />
+    <link href="css/override.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="js/glide-3.4.1/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="js/glide-3.4.1/dist/css/glide.theme.min.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/fun.js"></script>
+    <script src="js/plus/old/winscreen.js"></script>
+    <script src="js/plus/jquery.mChange.js"></script>
+    <script src="js/plus/jquery.mScroll.js"></script>
+    <script src="js/plus/vivus.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/iscroll.js"></script>
+</head>
+
+
+
+<body class="skin1">
+    <style>
+        .empty-data {
+            width: 100%;
+            font-size: 25px;
+            padding-top: 8%;
+            padding-bottom: 8%;
+            text-align: center;
+        }
+    </style>
+    <style>
+        #myalert {
+            display: none;
+        }
+
+        .recruit .block1 {
+            height: auto
+        }
+
+        .layer-1 {
+            background: url(image/con_mask.png);
+            ;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000000;
+        }
+
+        .layer-1 .myalert {
+            padding: 30px;
+            background: #fff;
+            width: 240px;
+            position: absolute;
+            margin-top: -100px;
+            top: 50%;
+            left: 50%;
+            margin-left: -145px;
+            text-align: center;
+            z-index: 100000
+        }
+
+        .layer-1 .guan {
+            background: url(image/clos.png) no-repeat center;
+            display: block;
+            width: 23px;
+            height: 23px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .layer-1 .text {
+            padding-bottom: 15px;
+            font-size: 16px;
+            color: #474747;
+        }
+
+        .layer-1 .button {
+            background: none;
+            border: 1px solid #bbbbbb;
+            width: 91px;
+            height: 29px;
+            font: 14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+            color: #707070;
+        }
+    </style>
+    <div id="myalert" class="layer-1">
+        <div class="myalert">
+            <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+            <div class="text">请输入关键字</div>
+            <a><button class="button" id="my_ok"
+                    style="cursor:pointer ;opacity: 1;transform: translateY(0px);">确定</button></a>
+        </div>
+    </div>
+    <script>
+        function my_alert(text, callback) {
+            $('#myalert').show();
+            $('#myalert .myalert div').html(text);
+
+            $('#my_ok').click(function () {
+                $('#myalert').hide();
+
+                if (typeof (callback) == 'function') {
+                    callback();
+                    return false;
+                }
+            });
+        }
+
+        function myalert_hide() {
+            $('#myalert').hide();
+        }
+    </script>
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <script src="js/slick.js"></script>
+    <div class="body_home">
+
+        <div class="banner">
+            <div class="frame">
+                <div class="child" style="background-image:url(Uploads/Picture/banner/xingyuan_4x.png);" tabindex="0">
+                </div>
+                <div class="child" style="background-image:url(Uploads/Picture/banner/blueSky.JPG);">
+                </div>
+                <div class="child" style="background-image:url(Uploads/Picture/banner/oliver.jpeg);">
+                </div>
+            </div>
+            <div class="navg"></div>
+        </div>
+        <div class="bb" style="min-width:50px;"></div>
+        <div class="bb">星元是什么？</div>
+        <a href="https://www.wjx.top/jq/87632739.aspx" target="_blank" rel="noopener noreferrer">
+            <div class="rr"><span>我要报名</span><i></i></div>
+        </a>
+    </div>
+    <div class="body_b dis" tabindex="1">
+        <div class="scroll">
+            <div class="home5">
+                <div class="block">
+                    <div class="content clearfix">
+                        <div class="list">
+
+                            <div class='slogan-container'>
+                                <div class="slogan">
+                                    激发兴趣 启发思维
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home7 pdt120">
+                <div class="block">
+                    <div class="d1">
+                        <div id="home7d" class="title">
+                            <div class="fz40">星元 · 课程</div>
+                        </div>
+                    </div>
+                    <div class="d2">
+                        <div id="d1" class="dd dd1">
+                            <div class="division-container">
+                                <div class="svg">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60"
+                                        xml:space="preserve">
+                                        <path class="st0" width="26" height="44" d="M12 8 L38 8 L38 52 L12 52 Z"
+                                            style="stroke-dasharray: 140, 142; stroke-dashoffset: 0;"></path>
+                                        <path class="st0" d="M13,16L24,16L20.3,21.3L24,26L12,26"
+                                            style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path>
+                                        <path class="st0"
+                                            d="M38,10.3V50c11-0.2,19.6-9,19.6-19.9C57.6,19.3,49,10.5,38,10.3z"
+                                            style="stroke-dasharray: 102, 104; stroke-dashoffset: 0;"></path>
+                                        <path class="st0"
+                                            d="M38,21.6V39c4.8-0.1,8.6-3.9,8.6-8.7C46.6,25.6,42.8,21.7,38,21.6z"
+                                            style="stroke-dasharray: 45, 47; stroke-dashoffset: 0;"></path>
+                                    </svg>
+                                </div>
+                                <div class="h">星元 · 数学</div>
+                                <style type="text/css">
+                                    #d1 {
+                                        background-image: url(/Uploads/Picture/schools/study.jpg);
+                                    }
+                                </style>
+                            </div>
+                            <div class="text-container">
+                                <div class="text-center">
+                                    <h1>数学</h1>
+                                    <p>
+                                        人人都应该学习有价值的数学；人人都应该获得必须的数学；不同的人在数学上获得不同的发展</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="d2" class="dd dd2">
+                            <div class="division-container">
+                                <div class="svg">
+                                    <svg version="1.1" id="svg7" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60"
+                                        xml:space="preserve">
+                                        <circle class="st0" cx="61.3" cy="21.2" r="5.5" />
+                                        <path class="st1"
+                                            d="M55.3,32.6c0,0-10.1-16-10.6-16.9s-0.9-1.9,1.6-2.2s6.5-1,8.2-1.2s3.5-6.1-2.4-5.4s-10.5,1.7-13,2s-3.7,2.8-1.8,6s2.8,4.5,2.8,4.5l-18.7,11" />
+                                        <path class="st1"
+                                            d="M3,33.2c3.1,0.1,3.7,2.4,6.5,2.4c6.3,0,6.4-5.5,12.3-4.8s8.1,4.9,13.4,4.8s7.6-4.5,11.9-4.2s7.6,4.3,13.1,4.3c4.2,0,5.4-2.4,6.8-2.4" />
+                                        <path class="st1"
+                                            d="M3,42.2c3.1,0.1,3.7,2.4,6.5,2.4c6.3,0,6.4-5.5,12.3-4.8s8.1,4.9,13.4,4.8s7.6-4.5,11.9-4.2s7.6,4.3,13.1,4.3c4.2,0,5.4-2.4,6.8-2.4" />
+                                        <path class="st1"
+                                            d="M3,51.2c3.1,0.1,3.7,2.4,6.5,2.4c6.3,0,6.4-5.5,12.3-4.8s8.1,4.9,13.4,4.8s7.6-4.5,11.9-4.2s7.6,4.3,13.1,4.3c4.2,0,5.4-2.4,6.8-2.4" />
+                                    </svg>
+                                </div>
+                                <div class="h">星元 · 体育</div>
+                                <style type="text/css">
+                                    #d2 {
+                                        background-image: url(/Uploads/Picture/schools/lab.jpg);
+                                    }
+                                </style>
+                            </div>
+                            <div class="text-container">
+                                <div class="text-center">
+                                    <h1>体育</h1>
+                                    <p>橄榄球，马术，拳击，高尔夫，篮球，太极，攀岩，健身，瑜伽，游泳......</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="d3" class="dd dd3">
+                            <div class="division-container">
+                                <div class="svg">
+                                    <svg version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60"
+                                        xml:space="preserve">
+                                        <path class="st0"
+                                            d="M27.2,28H15.8c-2.8,0-5-2.2-5-5V11.8c0-1.4,0-6.4,0-6.4s3.6,1.4,5,1.4h11.4c2.8,0,5,2.2,5,5V23c0,1.2,0,5,0,5S28.7,28,27.2,28z"
+                                            style="stroke-dasharray: 83, 85; stroke-dashoffset: 0;"></path>
+                                        <path class="st1"
+                                            d="M59.2,5.4c0,0-3.6,1.4-5,1.4H42.8c-2.8,0-5,2.2-5,5V23c0,1.2,0,5,0,5s3.5,0,5,0h11.4c2.8,0,5-2.2,5-5V11.8"
+                                            style="stroke-dasharray: 77, 79; stroke-dashoffset: 0;"></path>
+                                        <path class="st1"
+                                            d="M10.8,55.6c0,0,3.6-1.4,5-1.4h11.4c2.8,0,5-2.2,5-5V38c0-1.2,0-5,0-5s-3.5,0-5,0H15.8c-2.8,0-5,2.2-5,5v11.2"
+                                            style="stroke-dasharray: 77, 79; stroke-dashoffset: 0;"></path>
+                                        <path class="st0"
+                                            d="M42.8,33h11.4c2.8,0,5,2.2,5,5v11.2c0,1.4,0,6.4,0,6.4s-3.6-1.4-5-1.4H42.8c-2.8,0-5-2.2-5-5V38c0-1.2,0-5,0-5S41.2,33,42.8,33z"
+                                            style="stroke-dasharray: 83, 85; stroke-dashoffset: 0;"></path>
+                                    </svg>
+                                </div>
+                                <div class="h">星元 · 社团</div>
+                            </div>
+                            <div class="text-container">
+                                <div class="text-center">
+                                    <h1>学生社团</h1>
+                                    <p>戏剧社，编程社，桌游社，英语社，读书社，摄影社，茶道社，各种社团，应有尽有。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d4">
+                        <div id="d4" class="dd dd1">
+                            <div class="division-container">
+                                <div class="svg">
+                                    <svg version="1.1" id="svg8" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60"
+                                        xml:space="preserve">
+                                        <path class="st0"
+                                            d="M35.9,10.9c0,0-2.3-5-13.6-5C14.5,5.9,9,15.3,9,20.7c0,5.5,2,11.6,26.8,32.2c0,0,27.3-22.2,27.3-32c0-9.2-8.3-15-15.2-15S35.9,10.9,35.9,10.9z" />
+                                        <line class="st0" x1="48.2" y1="20.2" x2="58.1" y2="30.1" />
+                                        <line class="st0" x1="38.2" y1="25.1" x2="51.5" y2="38.4" />
+                                        <line class="st0" x1="25.9" y1="28.8" x2="43.4" y2="46.3" />
+                                    </svg>
+                                </div>
+                                <div class="h">星元 · 大语文</div>
+                            </div>
+                            <div class="text-container">
+                                <div class="text-center">
+                                    <h1>大语文</h1>
+                                    <p>如果读书也能算是一个嗜好的话，我的唯一嗜好就是读书。人必须读书，才能继承和发扬前人的智慧。人类之所以能进步，靠的就是能读书又写书的本领。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="d5" class="dd dd2">
+                            <div class="division-container">
+                                <div class="svg">
+                                    <svg version="1.1" id="svg9" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60"
+                                        xml:space="preserve">
+                                        <path class="st0"
+                                            d="M21,12h27c0,0,2-1,2.9,1.9s4.2,14.6,4.5,15.7c0.3,1.1,0.1,2.4-2.9,2.4S17,32,17,32s-3.6,0.2-2.6-3.5s4.2-13.2,4.7-14.7C19.5,12.4,21,12,21,12z" />
+                                        <path class="st1" d="M33,5c2.6,0,8,0,8,0s2,0,2,2.2s0,7.8,0,7.8" />
+                                        <line class="st1" x1="35" y1="32" x2="35" y2="45" />
+                                        <ellipse class="st1" cx="34.9" cy="50.2" rx="13.1" ry="4.9" />
+                                    </svg>
+                                </div>
+                                <div class="h">星元 · 理综</div>
+                                <style type="text/css">
+                                    #d5 {
+                                        background-image: url(/Uploads/Picture/2019/12/18/s5dfa062371400.jpg);
+                                    }
+                                </style>
+                            </div>
+                            <div class="text-container">
+                                <div class="text-center">
+                                    <h1>理综</h1>
+                                    <p>学会分析，学会观察，学会动手，学会怀疑，学会寻找，学会链接，学会归类，学会输出，学会学习。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="d6" class="dd dd3">
+                            <div class="division-container">
+                                <div class="svg">
+                                    <svg version="1.1" id="svg10" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 60"
+                                        xml:space="preserve">
+                                        <path class="st0"
+                                            d="M52,48c4.8-4.5,7.8-11,7.8-18.1c0-13.8-11.1-25-24.9-25S10,16.2,10,30s11.2,25,25,25h25" />
+                                        <circle class="st0" cx="47" cy="28.5" r="4.5" />
+                                        <circle class="st0" cx="23" cy="31.5" r="4.5" />
+                                        <circle class="st0" cx="36" cy="42.5" r="4.5" />
+                                        <circle class="st0" cx="34" cy="18.5" r="4.5" />
+                                    </svg>
+                                </div>
+                                <div class="h">星元 · 英语</div>
+                                <style type="text/css">
+                                    #d6 {
+                                        background-image: url(/Uploads/Picture/2019/12/18/s5dfa063869f70.jpg);
+                                    }
+                                </style>
+                            </div>
+                            <div class="text-container">
+                                <div class="text-center">
+                                    <h1>英语</h1>
+                                    <p>We're here to put a dent in the universe. Otherwise why else even be here?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="d7" class="d3">
+                        <style type="text/css">
+                            #d7 {
+                                background-image: url(Uploads/Picture/banner/diannao.jpeg);
+                                height: 500px;
+                            }
+                        </style>
+                        <div class="focus1">
+                            <div class="frame">
+                                <div class="child"><img class="_lazyload"
+                                        data-src="/Uploads/Picture/2020/05/12/s5eba21c3a1ef0.jpg" alt="" title=""></div>
+                                <div class="child"><img class="_lazyload"
+                                        data-src="/Uploads/Picture/2020/06/29/s5ef9be5c7c724.jpg" alt="" title=""></div>
+                            </div>
+                            <div class="navg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home9 pd120">
+                <div class="block">
+                    <div class="title">
+                        <div class="fz40">新元 · 团队</div>
+                    </div>
+                    <div class="glide slide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/bianyouli.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>卞有利老师</h2>
+                                            <p> 中国人⺠大学商学院EMBA，中国数学奥林匹克一级教练员，全国初中数学联赛优秀教练员，从事超常教育领域6年。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/fengkang.jpeg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>冯康老师</h2>
+                                            <p> 新加坡国立大学硕士，数学奥林匹克竞赛高级教练员，迎春杯中级教练
+                                                员
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/wangdeng.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>王登老师</h2>
+                                            <p> 本科毕业于北京大学化学与分子工程学院。曾于2010年获得全
+                                                国中学生化学奥林匹克竞赛一等奖保送进入北京大学。
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image:  url(Uploads/Picture/teachers/zhanghongbo.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>张洪波老师</h2>
+                                            <p>
+                                                本科毕业于山东大学生命科学学院。从事超常教育领域6年。作为超常教育团队的核心成员
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/jesse.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>Jesse老师</h2>
+                                            <p>
+                                                哈佛大学本科，明尼苏达大学博士，培养了大量升入美国常春
+                                                藤的学生，将杨绛、钱钟书、葛兆光、朱维铮、蔡骏等学者的 作品翻译成英文。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/huyonggao.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>胡永高老师</h2>
+                                            <p>
+                                                北京大学硕士研究生，爱好探究数学在交叉学科中的应用，运用数学解决生活和工程中的问题，并参加相关的数学建模竞赛，取得一定的成绩。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/zhien.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>李知恩老师</h2>
+                                            <p>
+                                                教育的目的是让学生在实践中增长知识的同时，认识自我，找到自我，从而使学生实现自我的价值。”
+                                                毕业于纽约大学，6年互联网软件开发经验，曾就职于美国花旗集团。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/zhanghang.jpeg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>张航老师</h2>
+                                            <p>
+                                                传统文化学校毕业，国学底蕴深厚。作为超常教育团队的核心成员。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/zhangyou.png);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>张宥老师</h2>
+                                            <p>
+                                                北京大学硕士研究生，爱好探究数学在交叉学科中的应用，运用数学解决生活和工程中的问题，并参加相关的数学建模竞赛，取得一定的成绩。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/haowen.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>郝雯老师</h2>
+                                            <p>
+                                                波士顿大学硕士。作为美国顶级中学全球拓展项目的核心成员参与多所国际学校整体
+                                                的筹建工作，尤其在学术团队搭建领域经验丰富，深刻理解美国高校录取与AP体系搭建。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/steven.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>Steven老师</h2>
+                                            <p>
+                                                曾任深圳厚德书院巴德青年大学学者、导师，本硕毕业于波士顿大学，LIFE CHIROPRACTIC COLLEGE
+                                                医学博士学位，曾在北京大学附属中学道尔顿学院教授化学以及健康素质课程。他极其适应和喜爱中国本土文化，开设过太极拳等课程。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/chenxiaoya.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>陈小雅老师</h2>
+                                            <p>
+                                                毕业于华南师范大学英语外事翻译专业，拥有 13 年英语教学、翻译经验， 指导学生进行托福 /
+                                                雅思考试多年，坚信“爱的教育应是整个教育的主旋律。”， 成功帮助多名学生取得托福雅思考试高分。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/ruanrui.jpg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>阮锐老师</h2>
+                                            <p>
+                                                毕业于意大利卡拉拉国立美院视觉艺术专业。黑格 尔说:艺术不仅可做娱乐消遣，美化我们的生活环境， 而且也给生活粗制滥造的外表披上了一层精致的外衣，
+                                                把生活修饰的更辉煌。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide item"
+                                    style="background-image: url(Uploads/Picture/teachers/zhangxinyue.jpeg);">
+                                    <div class="intro-text hide">
+                                        <div class="text-container">
+                                            <h2>张昕月老师</h2>
+                                            <p>
+                                                毕业于中国知名传统文化专修学校，传统文化讲师，丰泰书院特聘教师。授 课生动形象，深入浅出，擅长将艰深的传统知识讲解得妙趣横生，深受学生喜爱。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="home11" id="home11">
+                <div class="block">
+                    <div class="title">
+                        <div class="fz40">星元 · 校区</div>
+                    </div>
+                    <div class="list">
+                        <div class="item" style="background-image: url(Uploads/Picture/schools/fengtai.jpeg)">
+                            <a target="_blank" href="https://www.sohu.com/a/207026641_720530">
+                                <div class="text-container">
+                                    <div class="text-center">
+                                        <h2>丰泰外国语学校</h2>
+                                        <p>
+                                            学校秉承
+                                            “起步就与国际同步”的办学理念，关注生命发展，全面实施素质教育。国际化、外语素养、多元智能发展、艺术修养、行为教育、现代公民教育为学校的主要办学特色。
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item" style="background-image:url(Uploads/Picture/schools/hongyuan.jpeg)">
+                            <a href="https://baike.baidu.com/item/%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%AE%8F%E8%BF%9C%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1/4802997?fr=aladdin"
+                                target="_blank">
+                                <div class="text-container">
+                                    <div class="text-center">
+                                        <h2>宏远外国语学校</h2>
+                                        <p>
+                                            学校矢志不渝地秉承“起步，就与国际同步”的办学理念，沿着打造鲜明的外语特色、艺术特色和国学特色之路不懈追求着，现已成为珠三角文化教育的一块金字品牌。
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item" style="background-image: url(Uploads/Picture/schools/yuhuayuan.jpg)">
+                            <a href="https://baike.baidu.com/item/%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%BE%A1%E8%8A%B1%E8%8B%91%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1/12714017?fr=aladdin"
+                                target="_blank">
+                                <div class="text-container">
+                                    <div class="text-center">
+                                        <h2>御花苑外国语学校</h2>
+                                        <p>
+                                            东莞市南城御花苑外国语学校创建于2005年。学校坐落于水濂山风景区内的水濂湖畔，依山傍水，空气清新，环境优雅。
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item" style="background-image: url(Uploads/Picture/schools/fengtai_h.jpeg)">
+                            <a href="https://map.baidu.com/search/%E4%B8%B0%E6%B3%B0%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1/@12659753.315,2604510.25,19z?querytype=inf&uid=c5ed05f188fcc36a2dfaa778&wd=%E4%B8%B0%E6%B3%B0%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1&all=1&c=119&provider=pc-aladin&da_src=shareurl"
+                                target="_blank">
+                                <div class="text-container">
+                                    <div class="text-center">
+                                        <h2>丰泰高中</h2>
+                                        <p>
+                                            东莞丰泰外国语实验高级中学将于2020年秋季正式开学,学校设在虎门。
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+
+                <div class="part2" fix="8">
+                    <div class="logo"><a href="/index.html">
+                        </a></div>
+                    <div id="footinfo" class="info"><span><a style="cursor:default ;">版权所有©星元研究院</a></span>
+                        <span><a style="cursor:default ;">联系人： 13038817601(卞老师) 18205952677(李老师)</a></span>
+                        |<span>反馈意见：<a href="mailto:ft.edu@xyacademy.cn">ft.edu@xyacademy.cn</a></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="layer" id="search"><span class="close" onClick="hidelayer('#search')">&#xe798;</span>
+        <div class="search_box">
+            <input id="searchKeyword" type="text" placeholder="Search..." class="kw"
+                onkeydown="searchkeydown(event, '#searchOk')">
+            <input type="button" placeholder="" id="searchOk" onclick="bingsearch();return false;" class="ok"
+                value="搜索">
+        </div>
+    </div>
+    <div class="layer" id="video"><span class="close" onClick="hidelayer('#video');">&#xe798;</span>
+        <div class="picbox">
+            <video id="videoPlay" controls preload="auto" poster="" webkit-playsinline="" playsinline=""
+                x5-playsinline="" x-webkit-airplay="allow"></video>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/homeJson.js"></script>
+    <script src="js/plus/jquery.imgpreload.js"></script>
+    <script>
+        var first = 0;
+        var svgs = [];
+        var svgs1 = [];
+
+        $(".banner .frame").slick({
+            autoplay: true,
+            autoplaySpeed: 6000,
+            pauseOnDotsHover: true,
+            pauseOnFocus: false,
+            speed: 600,
+            dots: true,
+            arrows: false,
+            appendDots: ".banner .navg",
+            pauseOnHover: false,
+            customPaging: function (slider, i) {
+                return i + 1;
+            },
+        });
+        setTimeout(function () {
+            $(".banner .slick-active .a1").focus();
+        }, 500);
+
+        $(".home6 .frame").slick({
+            autoplay: true,
+            autoplaySpeed: 6000,
+            speed: 600,
+            dots: false,
+            arrows: false
+        });
+
+        $(".home7 .focus1 .frame").slick({
+            autoplay: true,
+            autoplaySpeed: 6000,
+            speed: 600,
+            dots: true,
+            arrows: false,
+            appendDots: ".home7 .focus1 .navg",
+            customPaging: function (slider, i) {
+                return i + 1;
+            },
+        });
+        $(".home10 .focus1 .frame").slick({
+            autoplay: true,
+            autoplaySpeed: 6000,
+            speed: 600,
+            dots: true,
+            arrows: false,
+            appendDots: ".home10 .focus1 .navg",
+            customPaging: function (slider, i) {
+                return i + 1;
+            },
+        });
+
+
+
+        $(function () {
+            $(".body_home").addClass("showdiv");
+            //$(".rr").addClass("showdiv");
+            // $(".home1").removeClass("showdiv");
+            setTimeout(function () {
+                $(".body_home").addClass("s");
+                $(".home1").removeClass("showdiv");
+            }, 500);
+
+            //$(".body_b").mCustomScrollbar({});
+        });
+
+
+
+        $(".home1 .td").each(function (index, element) {
+            var s = GetRandomNum(5, 15);
+            $(this).css("transition-delay", s * 0.1 + "s");
+            $(this).find(".inner").css("transition-delay", (s + 3) * 0.1 + "s");
+        });
+
+
+        setInterval(function () {
+            $(".home1 .td:has(strong)").removeClass("s");
+            var s = GetRandomNum(0, $(".home1 .td:has(strong)").length);
+            $(".home1 .td:has(strong)").eq(s).addClass("s");
+        }, 5000);
+
+
+
+        $(".td9,.td12,.td13,.td16,.td22").each(function (index, element) {
+            var s = GetRandomNum(5, 15);
+            $(this).css("animation-delay", s * 0.1 + "s");
+        });
+        $(".home4 .d").each(function (index, element) {
+            var s = GetRandomNum(1, 7);
+            $(this).css("transition-delay", s * 0.1 + "s");
+            $(this).find("span").css("transition-delay", (s + 3) * 0.1 + "s");
+        });
+
+
+        $(".home2 .item").click(function () {
+            $(this).siblings().removeClass("now");
+            $(this).addClass("now");
+            $(".home2 .pic .d").removeClass("s");
+            $(".home2 .pic .d").eq($(this).index()).addClass("s");
+        });
+        $(".home2 .item").eq(0).click();
+
+        tabdiv(".home3 .title .fz40", ".home3 .list", "click", 3);
+        $(".home3 .title .fz40:first").click();
+
+        $(".bb").click(function () {
+            $(".body_b").addClass("showdiv");//.focus();
+            $(".header").addClass("mobile");
+            //first=1;
+            setTimeout(function () {
+                $(".body_home").removeClass("showdiv");//.addClass("leave");
+                $(".home5").addClass("showdiv");
+            }, 500);
+        })
+
+        $(".rb").click(function () {
+            setTimeout(function () {
+                $(".ll").click();
+            }, 1100);
+            if ($(".body_b").hasClass("showdiv")) {
+                $(".body_r").removeClass("showdiv");
+            }
+            else {
+                $(".bb").click();
+                $(".body_b").css("z-index", 3);
+                $(".body_r").css("z-index", 1);
+            }
+        });
+
+        $(".body_b").scrollTop(0);
+
+        $(".body_home").mousewheel(function (event, delta, deltaX, deltaY) {
+            /*if(first==0){     
+                $(".rr").click();
+                setTimeout(function(){
+                    first=1;
+                    $(".home").removeClass("showdiv");//.addClass("leave");
+                },1200);
+            }*/
+            //else{
+            if (delta < 0) {
+                $(".bb").click();
+            }
+            //}
+        });
+
+        var sw_k = 1;
+        document.onkeydown = function (event) {
+            var e = event || window.event || arguments.callee.caller.arguments[0];
+            if ((e.keyCode == 40 || e.keyCode == 32 || e.keyCode == 34) && $(".body_home").hasClass("showdiv")) {
+                sw_k = 0;
+                $(".bb").click();
+                $(".body_b").animate({ scrollTop: 0 }, 10);
+                $(".body_b").focus();
+                setTimeout(function () { sw_k = 1; }, 1000);
+            }
+            if ((e.keyCode == 38 || e.keyCode == 33) && $(".body_b").hasClass("showdiv") && $(".body_b").scrollTop() == 0) {
+                sw_k = 0;
+                $(".body_home").addClass("showdiv").focus();
+                setTimeout(function () {
+                    $(".banner .slick-active .a1").focus();
+                }, 500);
+                $(".body_b").removeClass("showdiv");
+                $(".home5").removeClass("showdiv");
+                if ($(".body_b").css("position") == "fixed") $(".header").removeClass("mobile");
+                setTimeout(function () { sw_k = 1; }, 1000);
+            }
+            if ((e.keyCode == 37 || e.keyCode == 38 || e.keyCode == 33) && $(".body_r").hasClass("showdiv") && sw == 1) {
+                $(".nav_b .list .item.now").prev().click();
+            }
+            if ((e.keyCode == 39 || e.keyCode == 40 || e.keyCode == 34 || e.keyCode == 32) && $(".body_r").hasClass("showdiv") && sw == 1) {
+                $(".nav_b .list .item.now").next().click();
+            }
+        }
+
+        $(window).scroll(function () {
+            if ($(window).width() <= 850) {
+                if ($(window).scrollTop() < 50) {
+                    $(".header").removeClass("mobile")
+                }
+                else {
+                    $(".header").addClass("mobile")
+                }
+            }
+        });
+
+        $(".ll").click(function () {
+            $(".body_r").removeClass("showdiv");
+            $(".nav_b").removeClass("showdiv");
+            $(".rr").addClass("showdiv");
+            $(".home").removeClass("lock")
+            setTimeout(function () {
+                $(".nav_b .item:first").click();
+                $(".home1").removeClass("showdiv");
+                if (!$(".body_b").hasClass("showdiv")) {
+                    $(".body_home").addClass("showdiv").focus();
+                }
+            }, 1100);
+        });
+
+        var video1 = document.getElementById("video1");
+
+
+        $(".home11 .item").mouseenter(function () {
+            if ($(window).width() >= 1024) {
+                svgs[$(this).index()].reset().play();
+            }
+        }
+        );
+        $(".home7 .dd").mouseenter(function () {
+            if ($(window).width() >= 1024) {
+                svgs1[$(this).find("svg").attr("id")].reset().play();
+            }
+        }
+        )
+
+        $(".home11 .item").mouseenter(
+            function () {
+                svgs[$(this).index()].reset().play();
+            }
+        );
+        $(".home7 .dd").mouseenter(
+            function () {
+                svgs1[$(this).find("svg").attr("id")].reset().play();
+            }
+        );
+
+
+        $(".body_b").scroll(function () {
+            $(".home5,.home6 .part1,.home6 .part2,.home7,.home8,.home9,.home10 .part1,.home10 .part2,.home11 .block").each(function (index, element) {
+                var e = $(this);
+                var fix = parseInt(e.attr("fix"));
+                if (!fix && fix != 0) { fix = $(window).height() * 6 * 0.1; }
+                else { fix = $(window).height() * fix * 0.1; }
+                //var h=$(window).height()-$(e).height()>0?$(window).height()-$(e).height():0;
+                if ($(window).scrollTop() >= $(e).offset().top - fix) {
+                    if (!$(e).hasClass("showdiv")) {
+                        $(e).addClass("showdiv");
+                        if ($(e).hasClass("part1")) {
+                            setTimeout(function () {
+                                $(".home9 .part1").addClass("s");
+                            }, 1000);
+                        }
+                        if ($(e).find("#video1").length > 0) {
+                            video1.play();
+                        }
+                        if ($(e).parent().hasClass("home11")) {
+                            setTimeout(function () {
+                                for (var i = 0; i < svgs.length; i++) {
+                                    svgs[i].play();
+                                }
+                            }, 500);
+                        }
+                    }
+                }
+                else {
+                    if ($(e).hasClass("showdiv")) {
+                        $(e).removeClass("showdiv");
+                        if ($(e).hasClass("part1")) {
+                            $(".home9 .part1").removeClass("s");
+                        }
+                    }
+                }
+            });
+        });
+
+        $(".body_b").mousewheel(function (event, delta, deltaX, deltaY) {
+            if (delta > 0 && $(".body_b").scrollTop() == 0) {
+                //$(".home").removeClass("leave");
+                $(".body_home").addClass("showdiv");
+                setTimeout(function () {
+                    if ($(window).width() > 850) { $(".banner .slick-active .a1").focus(); }
+                    //$(".banner .slick-active .a1").focus();
+                }, 500);
+                $(".body_b").removeClass("showdiv");
+                // $(".header").removeClass("mobile")
+                $(".home5").removeClass("showdiv");
+                if ($(".body_b").css("position") == "fixed") $(".header").removeClass("mobile");
+                //$(".nav_r").removeClass("showdiv");
+
+            }
+
+            if (deltaY < 0 && $(".body_b").scrollTop() + $(window).height() >= $(".body_b .scroll").height()) {
+                //$(".rr").click();
+                //setTimeout(function(){
+                //$(".body_b").scrollTop(0);
+                //},1250);
+            }
+            if (deltaY > 0) {
+                $(".header2").removeClass("lit");
+            }
+            if (deltaY < 0) {
+                $(".header2").addClass("lit");
+            }
+        });
+
+        //初始化文字
+        function settxt(e) {
+            var text = $(e).text();
+            var l = 0;
+            var html = "";
+            while (l < text.length) {
+                html += "<i>" + text.substr(l, 1) + "</i>";
+                l += 1;
+            }
+            $(e).html(html);
+        }
+
+        $(".home1 .td").each(function (index, element) {
+            settxt($(this).find("strong"));
+        });
+
+        var ls = 100 / $(".home2 .list .item").length;
+        $(".home2 .list").mCustomScrollbar({
+            autoDraggerLength: false,
+            axis: 'x',
+            scrollbarPosition: 'outside',
+            callbacks: {
+                whileScrolling: function () {
+                    //console.log(this.mcs.leftPct)
+                    var p = this.mcs.leftPct;
+                    $(".home2 .list .item").each(function (index, element) {
+                        if (p > index * ls) {
+                            $(this).siblings().removeClass("now");
+                            $(this).addClass("now");
+                        }
+                    });
+                }
+            }
+        })
+
+
+        tabdiv(".home8 .l .fz40 a", ".home8 .div .list", "click", 1, 300);
+        tabdiv(".home8 .l .fz40 a", ".home8 .l .a a", "click", 1, 300);
+        $(".home8 .l .fz40 a").eq(0).click();
+
+        var sto_r = 0;
+        var loaded = 0;
+
+        var imgArr = [];
+        $('.banner .child').each(function () {
+            var item = $(this);
+            if (typeof (item.attr("src")) != "undefined" && item.attr("src") != "" && this.nodeName.toLowerCase() == "img") {
+                imgArr.push({
+                    src: item.attr('src')
+                });
+            } else if (item.css("background-image") != "none") {
+                imgArr.push({
+                    src: item.css("background-image").replace(/^url\(["']?/, '').replace(/["']?\)$/, '')
+                });
+            }
+        });
+
+        function _lazyload() {
+            $(".body_b img,.body_b source").each(function (index, element) {
+                if ($(this).attr("data-src") != "") {
+                    $(this).attr("src", $(this).attr("data-src"));
+                    $(this).removeAttr('data-src');
+                }
+            });
+        }
+
+        $.imgpreload(imgArr, {
+            each: function () { },
+            all: function () {
+                $(".body_b").removeClass("dis");
+                $(".rr").addClass("showdiv");
+                $(".home11 .item svg").each(function (index, element) {
+                    var id = $(this).attr("id");
+                    svgs[index] = new Vivus(id, { type: 'delayed', duration: 60 });
+                });
+                $(".home7 svg").each(function (index, element) {
+                    var id = $(this).attr("id");
+                    svgs1[id] = new Vivus(id, { type: 'delayed', duration: 60, start: 'autostart' });
+                });
+            }
+        });
+
+        window.onload = function () {
+            _lazyload();
+        }
+
+    </script>
+    <script type="text/javascript" src="js/glide-3.4.1/dist/glide.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const config = {
+                type: 'carousel',
+                perView: 5,
+                autoplay: 2000,
+                breakpoints: {
+                    850: { perView: 2 },
+                },
+            }
+
+            new Glide(".glide", config).mount();
+        })
+
+    </script>
+</body>
+
+</html>

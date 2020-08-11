@@ -1,0 +1,178 @@
+.list .box .item {
+  width: 90%;
+  margin: auto;
+  cursor: auto;
+  text-align: center;
+}
+.home5 .list .box {
+  width: 100%;
+}
+.skin1 .home5 {
+  min-height: 720px;
+}
+.home .slogan-container {
+  padding-top: 10%;
+  margin: auto;
+}
+.home5 .slogan {
+  font-size: 70px;
+  letter-spacing: 20px;
+  font-family: 方正兰亭黑简;
+}
+
+.slide {
+  padding-left: 3%;
+}
+.home9 .slide .item {
+  background-size: auto 600px;
+  background-position: center;
+}
+
+.home9 .slide li.item .hide {
+  opacity: 0;
+  background-color: rgba(255, 255, 255);
+  height: 100%;
+  display: flex;
+  transition: 0.5s ease;
+}
+
+.home9 .slide li:hover .hide {
+  opacity: 0.7;
+}
+
+.home9 .slide .item .intro-text .text-container {
+  align-self: flex-end;
+  padding: 15px;
+  color: #222222;
+}
+.home11 .list .item {
+  min-height: 210px;
+  margin: 10px;
+  background-size: auto 210px;
+  background-position: center;
+}
+
+.home11 .list .item:hover .text-container {
+  opacity: 0.7;
+}
+
+.home11 .list .item .text-container {
+  opacity: 0;
+  background-color: rgba(255, 255, 255);
+  height: 100%;
+  transition: 0.5s ease;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home11 .list .item .footer {
+  justify-content: flex-end;
+}
+
+.home7 .division-container {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.home7 .dd:hover .division-container {
+  /* visibility: hidden; */
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.home7 .text-container {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255);
+  height: 100%;
+  transition: 0.5s ease;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222222;
+  text-align: center;
+}
+
+.home7 .text-center {
+  display: block;
+}
+.home7 .text-center p {
+  margin: 20px;
+  display: block;
+}
+
+.home7 .dd:hover .text-container {
+  opacity: 0.6;
+}
+
+.home7 .d1 {
+  background-image: url("../Uploads/Picture/schools/study.jpg");
+}
+
+#home7d .fz40 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+
+.rr {
+  background-color: #f5a500;
+  opacity: 0.95;
+  top: 45%;
+  height: 240px;
+  width: 80px;
+}
+
+.rr span {
+  letter-spacing: 26px;
+  margin: auto;
+  display: block;
+  font-size: 24px;
+  color: #fdf5f8;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-align: center;
+  text-align: center;
+  margin-top: 40%;
+  font-family: "方正兰亭黑简";
+}
+
+.body_home .bb {
+  font-size: 30px;
+  padding-bottom: 12px;
+  color: #fdf5f8;
+}
+
+.body_home .bb:hover {
+  color: #f5a500;
+}
+
+.ptbox .inner:hover {
+  padding-bottom: 70%;
+  transition: 0.5s ease;
+}
+.ptbox .inner img {
+  margin-top: -9%;
+}
+
+.body_home .banner .child:before {
+  background: none;
+}
+
+/* Mobel */
+@media (max-width: 850px) {
+  .skin1 .home5 {
+    min-height: 320px;
+  }
+  .home5 .slogan {
+    font-size: 42px;
+    text-align: center;
+  }
+  .home5 .slogan-container {
+    padding-top: 15%;
+  }
+  .home11 .list .item{
+      width: 90%;
+      min-height: 230px;
+  }
+}

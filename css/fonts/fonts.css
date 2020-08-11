@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "方正正大黑简体";
+  src: url("方正正大黑简体.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "方正兰亭黑简";
+  src: url("方正兰亭黑简.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
